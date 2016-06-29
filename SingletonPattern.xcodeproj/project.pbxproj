@@ -15,6 +15,8 @@
 		10DA09211BBAB6A100834634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DA091F1BBAB6A100834634 /* LaunchScreen.storyboard */; };
 		10DA092C1BBAB6A100834634 /* SingletonPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA092B1BBAB6A100834634 /* SingletonPatternTests.m */; };
 		10DA09371BBAB6A100834634 /* SingletonPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA09361BBAB6A100834634 /* SingletonPatternUITests.m */; };
+		10DA09491BBABD4E00834634 /* UserInfoManagerCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA09481BBABD4E00834634 /* UserInfoManagerCenter.m */; settings = {ASSET_TAGS = (); }; };
+		10DA094F1BBAD7FD00834634 /* NewManagerCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA094E1BBAD7FD00834634 /* NewManagerCenter.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		10DA09321BBAB6A100834634 /* SingletonPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DA09361BBAB6A100834634 /* SingletonPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonPatternUITests.m; sourceTree = "<group>"; };
 		10DA09381BBAB6A100834634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10DA09471BBABD4E00834634 /* UserInfoManagerCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoManagerCenter.h; sourceTree = "<group>"; };
+		10DA09481BBABD4E00834634 /* UserInfoManagerCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoManagerCenter.m; sourceTree = "<group>"; };
+		10DA094D1BBAD7FD00834634 /* NewManagerCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewManagerCenter.h; sourceTree = "<group>"; };
+		10DA094E1BBAD7FD00834634 /* NewManagerCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewManagerCenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				10DA09151BBAB6A100834634 /* AppDelegate.m */,
 				10DA09171BBAB6A100834634 /* ViewController.h */,
 				10DA09181BBAB6A100834634 /* ViewController.m */,
+				10DA09471BBABD4E00834634 /* UserInfoManagerCenter.h */,
+				10DA09481BBABD4E00834634 /* UserInfoManagerCenter.m */,
+				10DA094D1BBAD7FD00834634 /* NewManagerCenter.h */,
+				10DA094E1BBAD7FD00834634 /* NewManagerCenter.m */,
 				10DA091A1BBAB6A100834634 /* Main.storyboard */,
 				10DA091D1BBAB6A100834634 /* Assets.xcassets */,
 				10DA091F1BBAB6A100834634 /* LaunchScreen.storyboard */,
@@ -271,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				10DA09191BBAB6A100834634 /* ViewController.m in Sources */,
+				10DA09491BBABD4E00834634 /* UserInfoManagerCenter.m in Sources */,
 				10DA09161BBAB6A100834634 /* AppDelegate.m in Sources */,
 				10DA09131BBAB6A100834634 /* main.m in Sources */,
+				10DA094F1BBAD7FD00834634 /* NewManagerCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "UserInfoManagerCenter.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSLog(@"%@", [[UserInfoManagerCenter alloc] init]);
+    UserInfoManagerCenter *center = [UserInfoManagerCenter managerCenter];
+    center.name = @"极客学院";
+    
     return YES;
 }
 
